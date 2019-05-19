@@ -1,0 +1,107 @@
+body{
+    font-family: sans-serif;
+    background-color:white;
+  }
+
+.tag1{
+    margin: auto;
+    padding: 2px 5px;
+    border-radius: 50px;
+    background-color:#f99847; 
+}
+
+.tag2{
+    margin: auto;
+    padding: 2px 5px;
+    border-radius: 50px;
+    background-color: #88dae5;
+}
+
+.tag3{
+    margin: auto;
+    padding: 2px 5px;
+    border-radius: 50px;
+    background-color: #f99847;
+}
+
+#card1{
+    background-color: #f88321;
+    color: #ffffff;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+
+#card2{
+    background-color: #70d3e0;
+    color: #ffffff;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+
+
+#card3{
+    background-color: #f88321;
+    color: #ffffff;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+
+#data1{
+    padding: 20px;
+    margin: 20px 0px 30px 0px;
+    transform: rotate(350deg);
+    background-color: #fab275;
+    border-radius: 30px;
+}
+
+#data2{
+    padding: 20px;
+    margin: 20px 0px 30px 0px;
+    transform: rotate(350deg);
+    background-color: #a6e3eb;
+    border-radius: 30px;
+}
+
+#data3{
+    padding: 20px;
+    margin: 20px 0px 30px 0px;
+    transform: rotate(350deg);
+    background-color: #fab275;
+    border-radius: 30px;
+}
+
+#title{
+    transform: rotate(10deg);
+    padding: 5px 20px;
+}
+
+#text{
+    transform: rotate(10deg);
+}
+
+.circle1
+  {
+    margin:auto;
+    background-color: #ffb047;
+    padding: 40px;
+    text-align: center;
+    border-radius: 50%;;
+  }
+
+.circle2
+  {
+    margin: auto;
+    background-color: #93f9ea;
+    padding: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+  
+.circle3
+  {
+    margin: auto;   
+    background-color: #ffb047;
+    padding: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
