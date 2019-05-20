@@ -7,7 +7,6 @@ body{
     margin: auto;
     padding: 5px 10px;
     border-radius: 50px;
-    background-color:#f99847; 
 }
 
 .tag2{
@@ -25,7 +24,6 @@ body{
 }
 
 #card1{
-    background-color: #f88321;
     color: #ffffff;
     padding: 20px 0px;
     overflow: hidden;
@@ -50,7 +48,6 @@ body{
     padding: 20px;
     margin: 20px 0px 30px 0px;
     transform: rotate(350deg);
-    background-color: #fab275;
     border-radius: 30px;
 }
 
@@ -70,19 +67,36 @@ body{
     border-radius: 30px;
 }
 
-#title{
-    transform: rotate(10deg);
+#title1{
+    transform: rotate(5deg);
     padding: 5px 20px;
 }
 
-#text{
-    transform: rotate(10deg);
+#title2{
+    transform: rotate(5deg);
+    padding: 5px 20px;
+}
+
+#title3{
+    transform: rotate(5deg);
+    padding: 5px 20px;
+}
+
+#text1{
+    transform: rotate(5deg);
+}
+
+#text2{
+    transform: rotate(5deg);
+}
+
+#text3{
+    transform: rotate(5deg);
 }
 
 .circle1
   {
     margin:auto;
-    background-color: #ffb047;
     padding: 40px;
     text-align: center;
     border-radius: 50%;;
