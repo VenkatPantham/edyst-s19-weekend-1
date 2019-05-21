@@ -15,7 +15,7 @@
         $(".tag1").css("background-color", data[0].cardColors.tagbg)
         $("#data1").css("background-color", data[0].cardColors.textbg)
         $(".circle1").css("background-color", data[0].cardColors.imgbg)
-        $("#img1").append('<img class="img-fluid" id="img1" src="' + data[0].sprite +
+        $("#img1").append('<img id="img1" src="' + data[0].sprite +
           '" class="card-img-top" alt="' + data[0].name + '">')
         $(".tag1").append('<p class="tag1">' + data[0].name + '</p>')
         $("#title1").append('<h4 class="card-title" id="title1">' + data[0].name + '</h4>')
@@ -24,7 +24,7 @@
         $(".tag2").css("background-color", data[1].cardColors.tagbg)
         $("#data2").css("background-color", data[1].cardColors.textbg)
         $(".circle2").css("background-color", data[1].cardColors.imgbg)
-        $("#img2").append('<img class="img-fluid" id="img2" src="' + data[1].sprite +
+        $("#img2").append('<img id="img2" src="' + data[1].sprite +
           '" class="card-img-top" alt="' + data[1].name + '">')
         $(".tag2").append('<p class="tag1">' + data[1].name + '</p>')
         $("#title2").append('<h4 class="card-title" id="title1">' + data[1].name + '</h4>')
@@ -33,7 +33,7 @@
         $(".tag3").css("background-color", data[2].cardColors.tagbg)
         $("#data3").css("background-color", data[2].cardColors.textbg)
         $(".circle3").css("background-color", data[2].cardColors.imgbg)
-        $("#img3").append('<img class="img-fluid" id="img3" src="' + data[2].sprite +
+        $("#img3").append('<img id="img3" src="' + data[2].sprite +
           '" class="card-img-top" alt="' + data[0].name + '">')
         $(".tag3").append('<p class="tag1">' + data[2].name + '</p>')
         $("#title3").append('<h4 class="card-title" id="title1">' + data[2].name + '</h4>')
@@ -45,35 +45,42 @@
 
 <body>
   <div class="container">
-    <div class="card-deck">
-      <div class="card" id="card1">
-        <p class="tag1"></p>
-        <div class="card-body" id="data1">
-          <h4 class="card-title" id="title1"></h4>
-          <p class="card-text" id="text1"></p>
-        </div>
-        <div class="circle1">
+  <br>
+    <div class="row">
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card" id="card1">
+          <p class="tag1"></p>
+          <div class="card-body" id="data1">
+            <h4 class="card-title" id="title1"></h4>
+            <p class="card-text" id="text1"></p>
+          </div>
+          <div class="circle1">
             <div id="img1"></div>
+          </div>
         </div>
       </div>
-      <div class="card" id="card2">
-        <p class="tag2"></p>
-        <div class="card-body" id="data2">
-          <h4 class="card-title" id="title2"></h4>
-          <p class="card-text" id="text2"></p>
-        </div>
-        <div class="circle2">
-          <div id="img2"></div>
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card" id="card2">
+          <p class="tag2"></p>
+          <div class="card-body" id="data2">
+            <h4 class="card-title" id="title2"></h4>
+            <p class="card-text" id="text2"></p>
+          </div>
+          <div class="circle2">
+            <div id="img2"></div>
+          </div>
         </div>
       </div>
-      <div class="card" id="card3">
-        <p class="tag3"></p>
-        <div class="card-body" id="data3">
-          <h4 class="card-title" id="title3"></h4>
-          <p class="card-text" id="text3"></p>
-        </div>
-        <div class="circle3">
-          <div id="img3"></div>
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card" id="card3">
+          <p class="tag3"></p>
+          <div class="card-body" id="data3">
+            <h4 class="card-title" id="title3"></h4>
+            <p class="card-text" id="text3"></p>
+          </div>
+          <div class="circle3">
+            <div id="img3"></div>
+          </div>
         </div>
       </div>
     </div>

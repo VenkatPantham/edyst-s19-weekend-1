@@ -1,6 +1,5 @@
 body{
     font-family: sans-serif;
-    background-color:white;
   }
 
 .tag1{
@@ -13,14 +12,12 @@ body{
     margin: auto;
     padding: 5px 10px;
     border-radius: 50px;
-    background-color: #88dae5;
 }
 
 .tag3{
     margin: auto;
     padding: 5px 10px;
     border-radius: 50px;
-    background-color: #f99847;
 }
 
 #card1{
@@ -30,7 +27,6 @@ body{
 }
 
 #card2{
-    background-color: #70d3e0;
     color: #ffffff;
     padding: 20px 0px;
     overflow: hidden;
@@ -38,7 +34,6 @@ body{
 
 
 #card3{
-    background-color: #f88321;
     color: #ffffff;
     padding: 20px 0px;
     overflow: hidden;
@@ -68,29 +63,35 @@ body{
 }
 
 #title1{
+    margin: auto;
     transform: rotate(5deg);
-    padding: 5px 20px;
+    padding: 4px 10px;
 }
 
 #title2{
+    margin: auto;
     transform: rotate(5deg);
-    padding: 5px 20px;
+    padding: 5px 10px;
 }
 
 #title3{
+    margin: auto;
     transform: rotate(5deg);
-    padding: 5px 20px;
+    padding: 5px 10px;
 }
 
 #text1{
+    display: flex;
     transform: rotate(5deg);
 }
 
 #text2{
+    display: flex;
     transform: rotate(5deg);
 }
 
 #text3{
+    display: flex;
     transform: rotate(5deg);
 }
 
@@ -98,24 +99,29 @@ body{
   {
     margin:auto;
     padding: 40px;
-    text-align: center;
-    border-radius: 50%;;
+    border-radius: 50%;
+    min-width: 150px;
+    min-height: 175px;
   }
 
 .circle2
   {
     margin: auto;
-    background-color: #93f9ea;
     padding: 40px;
-    text-align: center;
     border-radius: 50%;
+    min-width: 150px;
+    min-height: 175px;
 }
   
 .circle3
   {
-    margin: auto;   
-    background-color: #ffb047;
+    margin: auto;
     padding: 40px;
-    text-align: center;
     border-radius: 50%;
+    min-width: 150px;
+    min-height: 175px;
+  }
+  img {
+    max-height: 100px;
+    max-width: 100px;
   }
